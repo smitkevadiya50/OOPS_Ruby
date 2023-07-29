@@ -1,3 +1,8 @@
+=begin
+In this example, we're creating a BankAccount class. 
+The balance variable is encapsulated in the BankAccount class. 
+It is a private attribute and can only be accessed and changed through the methods provided by the class - deposit and withdraw.
+=end
 class BankAccount
   # Initialize BankAccount with a balance
   def initialize(balance)
